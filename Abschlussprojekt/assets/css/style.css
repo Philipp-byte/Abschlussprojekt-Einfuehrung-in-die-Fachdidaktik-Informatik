@@ -901,12 +901,19 @@ footer .wrapper { text-align: center; }
    * MAIN 
    */
 
-  .main .container {
-    display: grid;
-    grid-template-columns: 5fr 2fr;
-    gap: 60px;
+  .main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
   }
 
+  .main .container {
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 20px;
+    margin: 0 auto;
+  }
 
 
   /**
@@ -1072,3 +1079,34 @@ footer .wrapper { text-align: center; }
   .footer-link { margin-bottom: 0.3rem; }
 
 }
+
+/**
+ * responsive Text in inhalt.html
+ */
+
+.text-container {
+  background: var(--background-light);
+  padding: 30px; /* Erhöhtes Padding für mehr Platz im Container */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  margin-top: 20px;
+  color: var(--foreground-primary); /* Textfarbe für Light Mode */
+  border: 5px solid var(--foreground-tertiary); /* Breiterer Rahmen für Light Mode */
+  max-width: 1200px; /* Erhöhte Maximalbreite des Containers */
+  margin-left: auto; /* Container mittig ausrichten */
+  margin-right: auto; /* Container mittig ausrichten */
+  text-align: justify; /* Blocksatz */
+}
+
+.dark-theme .text-container {
+  background: var(--background-secondary);
+  color: var(--foreground-primary); /* Textfarbe für Dark Mode */
+  border: 5px solid var(--foreground-primary); /* Rahmenfarbe für Dark Mode */
+}
+
+.text-container p {
+  text-align: justify; /* Blocksatz */
+}
+
+

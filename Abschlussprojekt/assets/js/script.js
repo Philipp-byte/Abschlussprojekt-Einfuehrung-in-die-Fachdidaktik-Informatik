@@ -82,3 +82,27 @@ fetch('./assets/data/blog-posts.json')
         blogCardGroup.appendChild(card);
       });
     });
+
+// Text content generation in inhalt.html
+document.addEventListener('DOMContentLoaded', function() {
+    fetch('./assets/data/data.json')
+        .then(response => response.json())
+        .then(data => {
+            const contentDiv = document.getElementById('content');
+            data.text.forEach(item => {
+                const section = document.createElement('section');
+                section.innerHTML = `
+                    <h1>${item.title}</h1>
+                    <p>${item.content}</p>
+                `;
+                contentDiv.appendChild(section);
+            });
+        })
+        .catch(error => console.error('Error loading JSON:', error));
+
+    const themeToggleBtn = document.getElementById('theme-toggle');
+    themeToggleBtn.addEventListener('click', () => {
+        document.body.classList.toggle('dark-theme');
+        document.body.classList.toggle('light-theme');
+    });
+});
