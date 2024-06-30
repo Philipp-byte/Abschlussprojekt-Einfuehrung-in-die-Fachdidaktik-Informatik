@@ -1,0 +1,47 @@
+[
+  {
+    "bannerImg": "./assets/images/blog-1.png",
+    "title": "Building microservices with Dropwizard, MongoDB & Docker",
+    "text": "This NoSQL database oriented to documents (by documents like JSON) combines some of the features from relational databases, easy to use and the multi-platform is the best option for scale up and have fault tolerance, load balancing, map reduce, etc.",
+    "authorImg": "./assets/images/BildEntwickler.png",
+    "authorName": "Philipp Riegert",
+    "date": "2022-01-17",
+    "readTime": "PT3M"
+  },
+  {
+    "bannerImg": "./assets/images/blog-2.png",
+    "title": "Fast web page loading on a $20 feature phone",
+    "text": "Feature phones are affordable (under $20-25), low-end devices enabling 100s of millions of users in developing countries to leverage the web. Think of them as a light version of a smart phone.",
+    "authorImg": "./assets/images/BildEntwickler.png",
+    "authorName": "Philipp Riegert",
+    "date": "2021-12-10",
+    "readTime": "PT2M"
+  },
+  {
+    "bannerImg": "./assets/images/blog-3.png",
+    "title": "Accessibility Tips for Web Developers",
+    "text": "It's awesome to build sites that are inclusive and accessible to everyone. There are at least six key areas of disability we can optimize for: visual, hearing, mobility, cognition, speech and neural. Many tools and resources can help here, even if you're totally new to web accessibility.",
+    "authorImg": "./assets/images/BildEntwickler.png",
+    "authorName": "Philipp Riegert",
+    "date": "2021-11-28",
+    "readTime": "PT4M"
+  },
+  {
+    "bannerImg": "./assets/images/blog-4.png",
+    "title": "Dynamically Securing Databases using Hashicorp Vault",
+    "text": "Nowadays, it's hard to profoundly talk about security in the IT industry, since it has to be considered on so many different levels: from securing code chunks, securing containers, up to securing complex infrastructures and defining strong authorization and authentication policies across the enterprise.",
+    "authorImg": "./assets/images/BildEntwickler.png",
+    "authorName": "Philipp Riegert",
+    "date": "2021-11-20",
+    "readTime": "PT4M"
+  },
+  {
+    "bannerImg": "./assets/images/blog-5.png",
+    "title": "Adaptive Loading - Improving Web Performance on low-end devices",
+    "text": "Adaptive Loading: Do not just respond based on screen size, adapt based on actual device hardware. Any user can have a slow experience. In a world with widely varying device capabilities, a 'one-size' fits all experience may not always work. Sites that delight users on high-end devices can be unusable on low-end ones, particularly on median mobile and desktop hardware and in emerging markets.",
+    "authorImg": "./assets/images/BildEntwickler.png",
+    "authorName": "Philipp Riegert",
+    "date": "2021-11-10",
+    "readTime": "PT3M"
+  }
+]

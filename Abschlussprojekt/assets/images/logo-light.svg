@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 363.37 94.73">
+    <defs>
+        <style>
+            .cls-1 { fill: #4c9fe3; }
+            .cls-2 { fill: #316a99; }
+            .cls-3 { fill: #a1abbe; }
+        </style>
+    </defs>
+    <g id="Layer_2" data-name="Layer 2">
+        <g id="_hkcGc1TWxMQnvrJ-o7pxz" data-name=" hkcGc1TWxMQnvrJ-o7pxz">
+            <g id="_2pGrrHDisTubxdFeOQ9h1" data-name=" 2pGrrHDisTubxdFeOQ9h1">
+                <path id="_fclVC_gW3knTSnF4jsxLl" data-name=" fclVC gW3knTSnF4jsxLl" class="cls-1" d="M53.47,19.76l-5.28-5.09a2.19,2.19,0,0,0-3.1.05L13.93,47a2.19,2.19,0,0,0,.06,3.1L45.79,80.8a2.19,2.19,0,0,0,3.1-.06L80,48.47A2.17,2.17,0,0,0,80,45.38l-12-11.64,8-8.29L91.12,40.1a9.38,9.38,0,0,1,.23,13.26L54.16,91.87a9.38,9.38,0,0,1-13.26.23l-38-36.73A9.39,9.39,0,0,1,2.63,42.1L39.82,3.6a9.37,9.37,0,0,1,13.26-.23l8.39,8.1Z"/>
+                <path id="_2yC6JlP49xF4W450B5ghS" data-name=" 2yC6JlP49xF4W450B5ghS" class="cls-2" d="M76.22,75l5.27,5.09a2.19,2.19,0,0,0,3.1,0l31.16-32.27a2.19,2.19,0,0,0-.06-3.1L83.9,13.93a2.19,2.19,0,0,0-3.1.06L49.64,46.25a2.19,2.19,0,0,0,0,3.1L61.75,61l-8,8.29L38.57,54.63a9.37,9.37,0,0,1-.23-13.26L75.52,2.86a9.38,9.38,0,0,1,13.26-.23l38,36.73a9.38,9.38,0,0,1,.23,13.27L89.87,91.13a9.38,9.38,0,0,1-13.27.23l-8.39-8.1Z"/>
+            </g>
+            <text x="132" y="65" font-size="53" fill="#000000" font-family="Arial, sans-serif">WebDiary</text>
+        </g>
+    </g>
+</svg>
