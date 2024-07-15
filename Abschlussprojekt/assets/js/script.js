@@ -60,7 +60,7 @@ if (document.getElementById('blog-card-group')) {
                     </div>
                     <div class="blog-content-wrapper">
                         <h3>
-                            <a href="inhalt.html?id=${post.id}" class="h3">${post.title}</a>
+                            <a href="didaktischeKonzeptionContent.html?id=${post.id}" class="h3">${post.title}</a>
                         </h3>
                         <p class="blog-text">${post.textCard}</p>
                         <div class="wrapper-flex">
@@ -103,10 +103,17 @@ if (document.getElementById('content')) {
             const item = data.veranstaltungen.find(item => item.id == id);
 
             if (item) {
-                contentContainer.innerHTML = `
-                    <h2>${item.title}</h2>
-                    <p>${item.content}</p>
-                `;
+                if (item.id == 1) {
+                    contentContainer.innerHTML = `
+                        <h2>${item.title}</h2>
+                        <iframe src="${item.content}" width="100%" height="95%"></iframe>
+                    `;
+                } else {
+                    contentContainer.innerHTML = `
+                        <h2>${item.title}</h2>
+                        <p>${item.content}</p>
+                    `;
+                }
             } else {
                 contentContainer.innerHTML = `
                     <h2>Inhalt nicht gefunden</h2>

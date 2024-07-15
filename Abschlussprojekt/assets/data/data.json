@@ -3,13 +3,13 @@
     {
       "id": 1,
       "bannerImg": "./assets/images/allgemeineDidaktik.svg",
-      "title": "Building microservices with Dropwizard, MongoDB & Docker",
-      "textCard": "This NoSQL database oriented to documents (by documents like JSON) combines some of the features from relational databases, easy to use and the multi-platform is the best option for scale up and have fault tolerance, load balancing, map reduce, etc.",
+      "title": "Vorlesung 1: Modelle und didaktische Konzepte in der Berufsbildung",
+      "textCard": "Hans-Jürgen Albers diskutiert in seinem Werk „Modelle und didaktische Konzepte in der Berufsbildung“ die unterschiedlichen Ansätze und theoretischen Modelle, die zur Gestaltung und Analyse beruflicher Bildungsprozesse herangezogen werden können.",
       "authorImg": "./assets/images/BildEntwickler.png",
-      "authorName": "Philipp Riegert",
-      "date": "2022-01-17",
+      "authorName": "Hans-Jürgen Albers",
+      "date": "2023-07-15",
       "readTime": "PT3M",
-      "content": "Dies ist der lange Text für Kapitel 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet accumsan arcu. Praesent ac diam sit amet libero venenatis tincidunt sit amet eu justo. Suspendisse potenti. Nulla facilisi. Aenean ac felis eu odio condimentum egestas. Phasellus maximus, ligula eu facilisis elementum, nunc ligula auctor libero, a interdum urna nisi ac massa. Integer vitae felis quis nisl imperdiet bibendum at et lacus. Donec vitae arcu non magna aliquet varius a at justo. Etiam efficitur lacus a sem cursus, ac sollicitudin orci vehicula. Integer vitae elit a turpis ullamcorper ultrices ac a mi. Duis quis est in massa viverra ultrices. Vivamus et nulla a enim fermentum vestibulum. Phasellus posuere, massa eu posuere facilisis, libero risus faucibus lorem, vel convallis nulla quam id risus. Sed vitae purus nulla. Nulla facilisi. Suspendisse at libero sed lacus convallis tempor. Integer hendrerit turpis id ligula placerat, eget euismod risus pellentesque. Ut tincidunt eros ut ex finibus, in luctus eros vehicula. Fusce euismod, nulla non facilisis congue, mauris dui dignissim libero, non fermentum enim justo nec nunc. Curabitur at felis et dolor placerat hendrerit. Sed viverra, lacus sit amet hendrerit euismod, nisi nulla convallis mi, at vehicula nisi erat eget risus. Nulla facilisi. Proin vel orci et nulla fermentum elementum. Proin interdum lorem nec ante gravida, vitae sollicitudin ligula vestibulum. In hac habitasse platea dictumst. Aliquam erat volutpat. Integer facilisis fringilla massa, in accumsan lacus. Aenean sagittis massa in lacus dictum, sed dignissim velit pretium. Suspendisse potenti."
+      "content": "./assets/PDF/ModelleDerDidaktischenKonzeption.pdf"
     },
     {
       "id": 2,

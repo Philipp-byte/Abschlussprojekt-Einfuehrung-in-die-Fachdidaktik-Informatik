@@ -1069,7 +1069,6 @@ footer .wrapper { text-align: center; }
   }
 
 
-
   /**
    * FOOTER 
    */
@@ -1080,33 +1079,32 @@ footer .wrapper { text-align: center; }
 
 }
 
-/**
- * responsive Text in inhalt.html
- */
+/*-----------------------------------*\
+  #Responsive Text in inhalt.html
+\*-----------------------------------*/
 
 .text-container {
-  background: var(--background-light);
+  background: var(--background-primary); /* Hintergrund anpassen */
   padding: 30px; /* Erhöhtes Padding für mehr Platz im Container */
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: background-color 0.3s, color 0.3s, border-color 0.3s;
   margin-top: 20px;
   color: var(--foreground-primary); /* Textfarbe für Light Mode */
-  border: 5px solid var(--foreground-tertiary); /* Breiterer Rahmen für Light Mode */
-  max-width: 1200px; /* Erhöhte Maximalbreite des Containers */
+  max-width: 100%; /* Maximalbreite auf 100% setzen */
   margin-left: auto; /* Container mittig ausrichten */
   margin-right: auto; /* Container mittig ausrichten */
-  text-align: justify; /* Blocksatz */
+  text-align: center; /* Text zentrieren */
+  border: none; /* Rahmen entfernen */
+  height: 90vh; /* Höhe auf 90% der Ansichtshöhe setzen */
 }
 
 .dark-theme .text-container {
   background: var(--background-secondary);
   color: var(--foreground-primary); /* Textfarbe für Dark Mode */
-  border: 5px solid var(--foreground-primary); /* Rahmenfarbe für Dark Mode */
+  border: none; /* Rahmen entfernen */
 }
 
 .text-container p {
   text-align: justify; /* Blocksatz */
 }
-
-
