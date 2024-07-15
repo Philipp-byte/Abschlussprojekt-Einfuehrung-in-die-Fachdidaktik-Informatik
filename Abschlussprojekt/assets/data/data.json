@@ -3,24 +3,24 @@
     {
       "id": 1,
       "bannerImg": "./assets/images/allgemeineDidaktik.svg",
-      "title": "Vorlesung 1: Modelle und didaktische Konzepte in der Berufsbildung",
+      "title": "Text 1: Modelle und didaktische Konzepte in der Berufsbildung",
       "textCard": "Hans-Jürgen Albers diskutiert in seinem Werk „Modelle und didaktische Konzepte in der Berufsbildung“ die unterschiedlichen Ansätze und theoretischen Modelle, die zur Gestaltung und Analyse beruflicher Bildungsprozesse herangezogen werden können.",
       "authorImg": "./assets/images/BildEntwickler.png",
-      "authorName": "Hans-Jürgen Albers",
+      "authorName": "Philipp Riegert",
       "date": "2023-07-15",
       "readTime": "PT3M",
       "content": "./assets/PDF/ModelleDerDidaktischenKonzeption.pdf"
     },
     {
       "id": 2,
-      "bannerImg": "./assets/images/blog-2.png",
-      "title": "Fast web page loading on a $20 feature phone",
-      "textCard": "Feature phones are affordable (under $20-25), low-end devices enabling 100s of millions of users in developing countries to leverage the web. Think of them as a light version of a smart phone.",
-      "authorImg": "./assets/images/BildEntwickler.png",
+      "bannerImg": "./assets/images/DidaktikCurrikulimentwicklung.png",
+      "title": "Text 2: Historische Wurzeln der beruflichen Didaktik",
+      "textCard": "In dem Dokument „Berufliche Didaktik, historische Wurzeln“ von Prof. Dr. Joachim Rottmann wird die historische Entwicklung der Didaktik und Curriculumentwicklung in der beruflichen Bildung detailliert dargestellt.",
+      "authorImg":  "./assets/images/BildEntwickler.png",
       "authorName": "Philipp Riegert",
       "date": "2021-12-10",
       "readTime": "PT2M",
-      "content": "Dies ist der lange Text für Kapitel 2. Duis auctor, sapien a ultricies sollicitudin, magna libero dictum velit, quis convallis arcu lorem a risus. Aliquam erat volutpat. Duis sed justo dignissim, pharetra massa at, faucibus est. Mauris gravida justo nec mi suscipit, a fermentum lorem elementum. Praesent bibendum, sem at vestibulum varius, urna felis cursus est, a gravida arcu enim non lorem. Fusce feugiat urna eu erat convallis, in scelerisque sapien consequat. Quisque efficitur ligula sit amet ligula sollicitudin, id dapibus orci finibus. Nulla vehicula magna in nisi sagittis pharetra. Sed scelerisque feugiat tortor, a varius nisi posuere non. Nulla facilisi. Vivamus posuere, dui vel tempus fermentum, eros nulla auctor nunc, vel elementum sem nulla a lorem. In vel vestibulum arcu. Pellentesque condimentum dignissim est, in scelerisque metus aliquam ut. Pellentesque ut nibh nec mauris pharetra varius et at nisi. Etiam pretium est sed orci cursus, nec bibendum velit tempor. Aliquam erat volutpat. Donec vel ex ac turpis cursus commodo. Donec finibus justo id ipsum sollicitudin, ac fermentum velit sagittis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Fusce congue eros velit, vel consectetur orci ullamcorper in. Curabitur posuere purus vel nisl dignissim, at vestibulum erat molestie. Aenean convallis risus sed magna aliquam, a vehicula nisi feugiat. Curabitur tempor velit nec turpis gravida, et ullamcorper nulla hendrerit. Vivamus id dui at nisl sagittis tempor. Phasellus malesuada libero at ex dignissim, eget dignissim lectus pharetra. Nullam egestas velit at purus tincidunt, id ullamcorper risus pellentesque. Nam ut libero eu mi feugiat fermentum. Fusce ac nunc in nisl laoreet facilisis. Sed euismod risus a augue gravida, non suscipit neque consectetur. Donec varius felis a ipsum ultricies cursus. Phasellus feugiat turpis vel odio aliquet, ac egestas nunc condimentum. Integer vitae est nec ligula fermentum consequat. Nulla facilisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam interdum efficitur tellus, nec volutpat ipsum facilisis in. Aenean fringilla orci ac nunc sodales, a tincidunt magna pulvinar. Nam scelerisque justo sed turpis tincidunt, et vehicula velit consequat. Donec dignissim libero eget libero consectetur, nec pharetra nisi scelerisque. Aliquam erat volutpat."
+      "content": "./assets/PDF/HistorischeWurzelnderberuflichenDidaktik.pdf"
     },
     {
       "id": 3,
