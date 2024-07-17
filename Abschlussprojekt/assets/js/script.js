@@ -45,6 +45,8 @@ for (let i = 0; i < themeBtn.length; i++) {
 }
 
 // Fetch and display blog posts
+const pageType = document.body.getAttribute('data-page-type');
+
 if (document.getElementById('blog-card-group')) {
     fetch('./assets/data/data.json')
         .then(response => response.json())
@@ -52,36 +54,39 @@ if (document.getElementById('blog-card-group')) {
             const blogCardGroup = document.getElementById('blog-card-group');
             blogCardGroup.innerHTML = '';
             data.veranstaltungen.forEach(post => {
-                const card = document.createElement('div');
-                card.className = 'blog-card';
-                card.innerHTML = `
-                    <div class="blog-card-banner">
-                        <img src="${post.bannerImg}" alt="${post.title}" width="250" class="blog-banner-img">
-                    </div>
-                    <div class="blog-content-wrapper">
-                        <h3>
-                            <a href="inhalt.html?id=${post.id}" class="h3">${post.title}</a>
-                        </h3>
-                        <p class="blog-text">${post.textCard}</p>
-                        <div class="wrapper-flex">
-                            <div class="profile-wrapper">
-                                <img src="${post.authorImg}" alt="${post.authorName}" width="50">
-                            </div>
-                            <div class="wrapper">
-                                <a href="index.html" class="h4">${post.authorName}</a>
-                                <p class="text-sm">
-                                    <time datetime="${post.date}">${new Date(post.date).toLocaleDateString()}</time>
-                                    <span class="separator"></span>
-                                    <ion-icon name="time-outline"></ion-icon>
-                                    <time datetime="${post.readTime}">${Math.ceil(parseInt(post.readTime.slice(2)) / 60)} min</time>
-                                </p>
+                if (post.type === pageType) {
+                    const card = document.createElement('div');
+                    card.className = 'blog-card';
+                    card.innerHTML = `
+                        <div class="blog-card-banner">
+                            <img src="${post.bannerImg}" alt="${post.title}" width="250" class="blog-banner-img">
+                        </div>
+                        <div class="blog-content-wrapper">
+                            <h3>
+                                <a href="inhalt.html?id=${post.id}" class="h3">${post.title}</a>
+                            </h3>
+                            <p class="blog-text">${post.textCard}</p>
+                            <div class="wrapper-flex">
+                                <div class="profile-wrapper">
+                                    <img src="${post.authorImg}" alt="${post.authorName}" width="50">
+                                </div>
+                                <div class="wrapper">
+                                    <a href="index.html" class="h4">${post.authorName}</a>
+                                    <p class="text-sm">
+                                        <time datetime="${post.date}">${new Date(post.date).toLocaleDateString()}</time>
+                                        <span class="separator"></span>
+                                        <ion-icon name="time-outline"></ion-icon>
+                                        <time datetime="${post.readTime}">${Math.ceil(parseInt(post.readTime.slice(2)) / 60)} min</time>
+                                    </p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                `;
-                blogCardGroup.appendChild(card);
+                    `;
+                    blogCardGroup.appendChild(card);
+                }
             });
-        });
+        })
+        .catch(error => console.error('Error loading JSON:', error));
 }
 
 // Function to get URL parameter
