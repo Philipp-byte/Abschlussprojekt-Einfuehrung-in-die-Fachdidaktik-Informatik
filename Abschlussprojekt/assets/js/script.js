@@ -44,111 +44,54 @@ for (let i = 0; i < themeBtn.length; i++) {
     });
 }
 
-// Fetch and display blog posts
-if (document.getElementById('blog-card-group')) {
+// Fetch and display blog posts based on type
+function fetchAndDisplayPosts(type) {
     fetch('./assets/data/data.json')
         .then(response => response.json())
         .then(data => {
             const blogCardGroup = document.getElementById('blog-card-group');
             blogCardGroup.innerHTML = '';
-            data.veranstaltungen.forEach(post => {
-                const card = document.createElement('div');
-                card.className = 'blog-card';
-                card.innerHTML = `
-                    <div class="blog-card-banner">
-                        <img src="${post.bannerImg}" alt="${post.title}" width="250" class="blog-banner-img">
-                    </div>
-                    <div class="blog-content-wrapper">
-                        <h3>
-                            <a href="inhalt.html?id=${post.id}" class="h3">${post.title}</a>
-                        </h3>
-                        <p class="blog-text">${post.textCard}</p>
-                        <div class="wrapper-flex">
-                            <div class="profile-wrapper">
-                                <img src="${post.authorImg}" alt="${post.authorName}" width="50">
-                            </div>
-                            <div class="wrapper">
-                                <a href="index.html" class="h4">${post.authorName}</a>
-                                <p class="text-sm">
-                                    <time datetime="${post.date}">${new Date(post.date).toLocaleDateString()}</time>
-                                    <span class="separator"></span>
-                                    <ion-icon name="time-outline"></ion-icon>
-                                    <time datetime="${post.readTime}">${Math.ceil(parseInt(post.readTime.slice(2)) / 60)} min</time>
-                                </p>
+            data.veranstaltungen
+                .filter(post => post.type === type)
+                .forEach(post => {
+                    const card = document.createElement('div');
+                    card.className = 'blog-card';
+                    card.innerHTML = `
+                        <div class="blog-card-banner">
+                            <img src="${post.bannerImg}" alt="${post.title}" width="250" class="blog-banner-img">
+                        </div>
+                        <div class="blog-content-wrapper">
+                            <h3>
+                                <a href="inhalt.html?id=${post.id}&type=${post.type}" class="h3">${post.title}</a>
+                            </h3>
+                            <p class="blog-text">${post.textCard}</p>
+                            <div class="wrapper-flex">
+                                <div class="profile-wrapper">
+                                    <img src="${post.authorImg}" alt="${post.authorName}" width="50">
+                                </div>
+                                <div class="wrapper">
+                                    <a href="index.html" class="h4">${post.authorName}</a>
+                                    <p class="text-sm">
+                                        <time datetime="${post.date}">${new Date(post.date).toLocaleDateString()}</time>
+                                        <span class="separator"></span>
+                                        <ion-icon name="time-outline"></ion-icon>
+                                        <time datetime="${post.readTime}">${Math.ceil(parseInt(post.readTime.slice(2)) / 60)} min</time>
+                                    </p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                `;
-                blogCardGroup.appendChild(card);
-            });
-        });
-}
-
-// Function to get URL parameter
-function getUrlParameter(name) {
-    name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
-    const regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
-    const results = regex.exec(location.search);
-    return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
-}
-
-// Display content based on URL parameter
-if (document.getElementById('content')) {
-    const id = getUrlParameter('id');
-
-    fetch('./assets/data/data.json')
-        .then(response => response.json())
-        .then(data => {
-            const contentContainer = document.getElementById('content');
-            const item = data.veranstaltungen.find(item => item.id == id);
-
-            if (item) {
-                contentContainer.innerHTML = `
-                    <h2>${item.title}</h2>
-                    <iframe src="${item.content}" width="100%" height="100%"></iframe>
-                `;
-
-                if (item.downloads && item.downloads.length > 0) {
-                    const downloadButton = document.getElementById('download-button');
-                    downloadButton.onclick = function() {
-                        const zip = new JSZip();
-                        const folder = zip.folder("downloads");
-                        let downloadPromises = [];
-
-                        item.downloads.forEach(download => {
-                            let downloadPromise = fetch(download.filePath)
-                                .then(response => {
-                                    if (!response.ok) {
-                                        throw new Error('Network response was not ok');
-                                    }
-                                    return response.blob();
-                                })
-                                .then(blob => {
-                                    folder.file(download.fileName, blob);
-                                })
-                                .catch(error => {
-                                    console.error('Error fetching file:', error);
-                                });
-                            downloadPromises.push(downloadPromise);
-                        });
-
-                        Promise.all(downloadPromises).then(() => {
-                            zip.generateAsync({ type: "blob" })
-                                .then(content => {
-                                    saveAs(content, "downloads.zip");
-                                });
-                        }).catch(error => {
-                            console.error('Error generating zip file:', error);
-                        });
-                    };
-                }
-
-            } else {
-                contentContainer.innerHTML = `
-                    <h2>Inhalt nicht gefunden</h2>
-                    <p>Der angeforderte Inhalt konnte nicht gefunden werden.</p>
-                `;
-            }
+                    `;
+                    blogCardGroup.appendChild(card);
+                });
         })
         .catch(error => console.error('Error loading JSON:', error));
 }
+
+// Determine the type of page and fetch appropriate posts
+document.addEventListener('DOMContentLoaded', function () {
+    if (document.querySelector('title').textContent.includes('Didaktische Konzeption')) {
+        fetchAndDisplayPosts('didaktischeKonzeption');
+    } else if (document.querySelector('title').textContent.includes('Fachdidaktik Informatik')) {
+        fetchAndDisplayPosts('fachdidaktik');
+    }
+});
