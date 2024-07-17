@@ -60,7 +60,7 @@ if (document.getElementById('blog-card-group')) {
                     </div>
                     <div class="blog-content-wrapper">
                         <h3>
-                            <a href="didaktischeKonzeptionContent.html?id=${post.id}" class="h3">${post.title}</a>
+                            <a href="inhalt.html?id=${post.id}" class="h3">${post.title}</a>
                         </h3>
                         <p class="blog-text">${post.textCard}</p>
                         <div class="wrapper-flex">
@@ -68,7 +68,7 @@ if (document.getElementById('blog-card-group')) {
                                 <img src="${post.authorImg}" alt="${post.authorName}" width="50">
                             </div>
                             <div class="wrapper">
-                                <a href="#" class="h4">${post.authorName}</a>
+                                <a href="index.html" class="h4">${post.authorName}</a>
                                 <p class="text-sm">
                                     <time datetime="${post.date}">${new Date(post.date).toLocaleDateString()}</time>
                                     <span class="separator"></span>
@@ -103,17 +103,46 @@ if (document.getElementById('content')) {
             const item = data.veranstaltungen.find(item => item.id == id);
 
             if (item) {
-                if (item.id == 1) {
-                    contentContainer.innerHTML = `
-                        <h2>${item.title}</h2>
-                        <iframe src="${item.content}" width="100%" height="95%"></iframe>
-                    `;
-                } else {
-                    contentContainer.innerHTML = `
-                        <h2>${item.title}</h2>
-                        <p>${item.content}</p>
-                    `;
+                contentContainer.innerHTML = `
+                    <h2>${item.title}</h2>
+                    <iframe src="${item.content}" width="100%" height="100%"></iframe>
+                `;
+
+                if (item.downloads && item.downloads.length > 0) {
+                    const downloadButton = document.getElementById('download-button');
+                    downloadButton.onclick = function() {
+                        const zip = new JSZip();
+                        const folder = zip.folder("downloads");
+                        let downloadPromises = [];
+
+                        item.downloads.forEach(download => {
+                            let downloadPromise = fetch(download.filePath)
+                                .then(response => {
+                                    if (!response.ok) {
+                                        throw new Error('Network response was not ok');
+                                    }
+                                    return response.blob();
+                                })
+                                .then(blob => {
+                                    folder.file(download.fileName, blob);
+                                })
+                                .catch(error => {
+                                    console.error('Error fetching file:', error);
+                                });
+                            downloadPromises.push(downloadPromise);
+                        });
+
+                        Promise.all(downloadPromises).then(() => {
+                            zip.generateAsync({ type: "blob" })
+                                .then(content => {
+                                    saveAs(content, "downloads.zip");
+                                });
+                        }).catch(error => {
+                            console.error('Error generating zip file:', error);
+                        });
+                    };
                 }
+
             } else {
                 contentContainer.innerHTML = `
                     <h2>Inhalt nicht gefunden</h2>
