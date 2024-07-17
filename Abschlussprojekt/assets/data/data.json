@@ -35,6 +35,24 @@
           "filePath": "./assets/downloads/Berufliche_Didaktik_historische_Wurzeln.pdf"
         }
       ]
+    },
+    {
+      "id": 3,
+      "type": "fachdidaktik",
+      "bannerImg": "./assets/images/DidaktikCurriculumentwicklung.png",
+      "title": "Text 2: Historische Wurzeln der beruflichen Didaktik",
+      "textCard": "In dem Dokument „Berufliche Didaktik, historische Wurzeln“ von Prof. Dr. Joachim Rottmann wird die historische Entwicklung der Didaktik und Curriculumentwicklung in der beruflichen Bildung detailliert dargestellt.",
+      "authorImg":  "./assets/images/BildEntwickler.png",
+      "authorName": "Philipp Riegert",
+      "date": "2021-12-10",
+      "readTime": "PT2M",
+      "content": "./assets/PDF/HistorischeWurzelnderberuflichenDidaktik.pdf",
+      "downloads": [
+        {
+          "fileName": "Berufliche_Didaktik_historische_Wurzeln.pdf",
+          "filePath": "./assets/downloads/Berufliche_Didaktik_historische_Wurzeln.pdf"
+        }
+      ]
     }
   ]
 }
