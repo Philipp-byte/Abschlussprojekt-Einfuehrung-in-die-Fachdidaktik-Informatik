@@ -1,0 +1,29 @@
+<svg width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background -->
+    <rect width="800" height="400" fill="#f8f9fa" />
+
+    <!-- Title -->
+    <text x="400" y="40" font-size="24" text-anchor="middle" fill="#333">Theoretische Zugänge zur Wirtschaftsdidaktik</text>
+
+    <!-- Main Box -->
+    <rect x="300" y="175" width="200" height="50" fill="#87CEEB" stroke="#4682B4" stroke-width="2" />
+    <text x="400" y="205" font-size="16" text-anchor="middle" fill="#333">Wirtschaftswissenschaften</text>
+
+    <!-- Arrows -->
+    <line x1="300" y1="200" x2="150" y2="125" stroke="#4682B4" stroke-width="2" marker-end="url(#arrowhead)" />
+    <line x1="500" y1="200" x2="650" y2="125" stroke="#4682B4" stroke-width="2" marker-end="url(#arrowhead)" />
+
+    <!-- Arrowheads -->
+    <defs>
+        <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
+            <polygon points="0 0, 10 3.5, 0 7" fill="#4682B4" />
+        </marker>
+    </defs>
+
+    <!-- Didaktik Boxes -->
+    <rect x="50" y="100" width="200" height="50" fill="#FFD700" stroke="#DAA520" stroke-width="2" />
+    <text x="150" y="130" font-size="16" text-anchor="middle" fill="#333">Didaktik</text>
+
+    <rect x="550" y="100" width="200" height="50" fill="#FFD700" stroke="#DAA520" stroke-width="2" />
+    <text x="650" y="130" font-size="16" text-anchor="middle" fill="#333">Didaktik</text>
+</svg>

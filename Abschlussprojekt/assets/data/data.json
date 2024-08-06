@@ -38,6 +38,60 @@
     },
     {
       "id": 3,
+      "type": "didaktischeKonzeption",
+      "bannerImg": "./assets/images/ZugängeWirtschaftsdidaktik.svg",
+      "title": "Text 3: Theoretische Zugänge zur Wirtschaftsdidaktik",
+      "textCard": "Dieter Euler stellt fest, dass zwar theoretische Fundierung für jedes Handeln notwendig ist, jedoch eine beträchtliche Kluft zwischen Theorie und Praxis besteht, und erläutert daher verschiedene didaktische Modelle, Partialtheorien und prinzipiengeleitete Handlungskonzepte, um Didaktikern eine professionelle Praxis zu ermöglichen",
+      "authorImg":  "./assets/images/BildEntwickler.png",
+      "authorName": "Philipp Riegert",
+      "date": "2021-12-10",
+      "readTime": "PT2M",
+      "content": "./assets/PDF/TheoretischeZugängezurWirtschaftsdidaktik.pdf",
+      "downloads": [
+        {
+          "fileName": "Euler_Wirtschaftsdidaktik_2003.pdf",
+          "filePath": "./assets/downloads/Euler_Wirtschaftsdidaktik_2003.pdf"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "didaktischeKonzeption",
+      "bannerImg": "./assets/images/Kompetenzbegriff.svg",
+      "title": "Text 4: Entwicklung des Kompetenzbegriffs",
+      "textCard": "Der Text behandelt die Entwicklung, Bedeutung und Anwendung des Kompetenzbegriffs in der Berufsbildung, Personalentwicklung und Organisationslehre sowie dessen theoretische Grundlagen und praktische Implikationen.",
+      "authorImg":  "./assets/images/BildEntwickler.png",
+      "authorName": "Philipp Riegert",
+      "date": "2021-12-10",
+      "readTime": "PT2M",
+      "content": "./assets/PDF/EntwicklungdesKompetenzbegriffs.pdf",
+      "downloads": [
+        {
+          "fileName": "Arnold_R._Schuessler_I._2001_Entwicklung_des_Kompetenzbegriffs.pdf",
+          "filePath": "./assets/downloads/Arnold_R._Schuessler_I._2001_Entwicklung_des_Kompetenzbegriffs.pdf"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "didaktischeKonzeption",
+      "bannerImg": "./assets/images/internationalerKompetenzbegriff.svg",
+      "title": "Text 5: Kompetenzentwicklung im internationalen Kontext",
+      "textCard": "Ute Clement untersucht die internationale Entwicklung des Kompetenzbegriffs, der trotz nationaler Unterschiede in Definition und Anwendung weltweit zu einem zentralen Bildungskonzept geworden ist, und betont die Notwendigkeit politischer Unterstützung und Reformen zur Anpassung der Bildungssysteme an die sich wandelnden Anforderungen der Arbeitsmärkte.",
+      "authorImg":  "./assets/images/BildEntwickler.png",
+      "authorName": "Philipp Riegert",
+      "date": "2021-12-10",
+      "readTime": "PT2M",
+      "content": "./assets/PDF/KompetenzentwicklungiminternationalenKontext.pdf",
+      "downloads": [
+        {
+          "fileName": "Clement_U._2002_Kompetenzentwicklung_im_internationalen_Kontext.pdf",
+          "filePath": "./assets/downloads/Clement_U._2002_Kompetenzentwicklung_im_internationalen_Kontext.pdf"
+        }
+      ]
+    },
+    {
+      "id": 6,
       "type": "fachdidaktik",
       "bannerImg": "./assets/images/DidaktikCurriculumentwicklung.png",
       "title": "Text 2: Historische Wurzeln der beruflichen Didaktik",
