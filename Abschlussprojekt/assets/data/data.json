@@ -92,6 +92,24 @@
     },
     {
       "id": 6,
+      "type": "didaktischeKonzeption",
+      "bannerImg": "./assets/images/AllgemeineUndBeruflicheBildungKutscha.svg",
+      "title": "Text 6: Zum Verhältnis von allgemeiner und beruflicher Bildung im Kontext bildungstheoretischer Reformkonzepte",
+      "textCard": "Der Text analysiert die historische Entwicklung und theoretischen Konzepte der Trennung und Integration von allgemeiner und beruflicher Bildung in Deutschland, betont die Gleichwertigkeit beider Bildungswege, und schließt mit der Forderung nach einer bildungstheoretisch fundierten Neugestaltung der Berufsbildung ab.",
+      "authorImg":  "./assets/images/BildEntwickler.png",
+      "authorName": "Philipp Riegert",
+      "date": "2021-12-10",
+      "readTime": "PT2M",
+      "content": "./assets/PDF/VerhältnisallgemeinerundberuflicherBildung.pdf",
+      "downloads": [
+        {
+          "fileName": "Kutscha_G._Allgemeine_und_berufliche_Bildung_20034_.pdf",
+          "filePath": "./assets/downloads/Kutscha_G._Allgemeine_und_berufliche_Bildung_20034_.pdf"
+        }
+      ]
+    },
+    {
+      "id": 7,
       "type": "fachdidaktik",
       "bannerImg": "./assets/images/DidaktikCurriculumentwicklung.png",
       "title": "Text 2: Historische Wurzeln der beruflichen Didaktik",
