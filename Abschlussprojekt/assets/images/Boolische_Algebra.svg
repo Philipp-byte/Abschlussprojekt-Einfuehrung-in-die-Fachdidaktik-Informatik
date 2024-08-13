@@ -1,0 +1,46 @@
+<svg width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+    <!-- Hintergrund -->
+    <rect width="100%" height="100%" fill="#f5f5f5" />
+
+    <!-- Titel -->
+    <text x="400" y="50" font-family="Arial" font-size="30" fill="#333" text-anchor="middle">
+        Programmier-Vorbereitung: Boolesche Algebra
+    </text>
+
+    <!-- UND-Gatter -->
+    <rect x="150" y="150" width="80" height="80" fill="#4CAF50" rx="15" />
+    <text x="190" y="195" font-family="Arial" font-size="24" fill="white" text-anchor="middle">
+        AND
+    </text>
+    <line x1="120" y1="180" x2="150" y2="180" stroke="#333" stroke-width="2" />
+    <line x1="120" y1="220" x2="150" y2="220" stroke="#333" stroke-width="2" />
+    <line x1="230" y1="200" x2="260" y2="200" stroke="#333" stroke-width="2" />
+
+    <!-- ODER-Gatter -->
+    <rect x="320" y="150" width="80" height="80" fill="#FF9800" rx="15" />
+    <text x="360" y="195" font-family="Arial" font-size="24" fill="white" text-anchor="middle">
+        OR
+    </text>
+    <line x1="290" y1="180" x2="320" y2="180" stroke="#333" stroke-width="2" />
+    <line x1="290" y1="220" x2="320" y2="220" stroke="#333" stroke-width="2" />
+    <line x1="400" y1="200" x2="430" y2="200" stroke="#333" stroke-width="2" />
+
+    <!-- NICHT-Gatter -->
+    <rect x="490" y="150" width="80" height="80" fill="#F44336" rx="15" />
+    <text x="530" y="195" font-family="Arial" font-size="24" fill="white" text-anchor="middle">
+        NOT
+    </text>
+    <line x1="460" y1="200" x2="490" y2="200" stroke="#333" stroke-width="2" />
+    <line x1="570" y1="200" x2="600" y2="200" stroke="#333" stroke-width="2" />
+
+    <!-- TRUE und FALSE -->
+    <text x="120" y="140" font-family="Arial" font-size="20" fill="#333" text-anchor="middle">
+        TRUE
+    </text>
+    <text x="120" y="260" font-family="Arial" font-size="20" fill="#333" text-anchor="middle">
+        FALSE
+    </text>
+    <text x="680" y="200" font-family="Arial" font-size="20" fill="#333" text-anchor="middle">
+        Output
+    </text>
+</svg>

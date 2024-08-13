@@ -1,0 +1,43 @@
+<svg width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+    <!-- Hintergrund -->
+    <rect width="50%" height="100%" fill="#d1e8e2" />
+    <rect x="50%" width="50%" height="100%" fill="#f7d9c4" />
+
+    <!-- Titel -->
+    <text x="410" y="50" font-family="Arial" font-size="30" fill="#333" text-anchor="middle">
+        Objects First vs. Objects Later
+    </text>
+
+    <!-- Objects First -->
+    <text x="200" y="100" font-family="Arial" font-size="24" fill="#333" text-anchor="middle">
+        Objects First
+    </text>
+    <circle cx="200" cy="200" r="40" fill="#4CAF50" />
+    <text x="200" y="200" font-family="Arial" font-size="18" fill="white" text-anchor="middle" dy=".3em">
+        Object
+    </text>
+    <rect x="160" y="260" width="80" height="20" fill="#4CAF50" />
+    <text x="200" y="275" font-family="Arial" font-size="14" fill="white" text-anchor="middle">
+        Class
+    </text>
+    <line x1="200" y1="240" x2="200" y2="260" stroke="#4CAF50" stroke-width="2" />
+
+    <!-- Objects Later -->
+    <text x="600" y="100" font-family="Arial" font-size="24" fill="#333" text-anchor="middle">
+        Objects Later
+    </text>
+    <rect x="560" y="180" width="80" height="20" fill="#FF5722" />
+    <text x="600" y="195" font-family="Arial" font-size="14" fill="white" text-anchor="middle">
+        Variable
+    </text>
+    <rect x="540" y="240" width="120" height="20" fill="#FF5722" />
+    <text x="600" y="255" font-family="Arial" font-size="14" fill="white" text-anchor="middle">
+        Control Flow
+    </text>
+    <rect x="520" y="300" width="160" height="20" fill="#FF5722" />
+    <text x="600" y="315" font-family="Arial" font-size="14" fill="white" text-anchor="middle">
+        Procedural Code
+    </text>
+    <line x1="600" y1="200" x2="600" y2="240" stroke="#FF5722" stroke-width="2" />
+    <line x1="600" y1="260" x2="600" y2="300" stroke="#FF5722" stroke-width="2" />
+</svg>

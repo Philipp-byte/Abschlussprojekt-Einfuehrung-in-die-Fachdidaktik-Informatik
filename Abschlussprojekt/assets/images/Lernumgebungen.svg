@@ -1,0 +1,29 @@
+<svg width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+    <!-- Hintergrundfarbe -->
+    <rect width="100%" height="100%" fill="#e0f7fa" />
+
+    <!-- Titel -->
+    <text x="400" y="50" font-family="Arial" font-size="30" fill="#333" text-anchor="middle">
+        Python Lernumgebungen
+    </text>
+
+    <!-- Python-In-Pieces -->
+    <text x="200" y="150" font-family="Arial" font-size="24" fill="#FFD43B" text-anchor="middle" transform="rotate(-30 200,150)">
+        Python-In-Pieces
+    </text>
+
+    <!-- Codecademy -->
+    <text x="600" y="150" font-family="Arial" font-size="24" fill="#00A1F1" text-anchor="middle" transform="rotate(15 600,150)">
+        Codecademy
+    </text>
+
+    <!-- TigerJython -->
+    <text x="200" y="300" font-family="Arial" font-size="24" fill="#FF5733" text-anchor="middle" transform="rotate(-45 200,300)">
+        TigerJython
+    </text>
+
+    <!-- Online-Python-Console -->
+    <text x="600" y="300" font-family="Arial" font-size="24" fill="#4CAF50" text-anchor="middle" transform="rotate(30 600,300)">
+        Online-Python-Console
+    </text>
+</svg>

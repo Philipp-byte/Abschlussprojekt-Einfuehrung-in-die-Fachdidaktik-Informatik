@@ -24,7 +24,7 @@
       "bannerImg": "./assets/images/DidaktikCurriculumentwicklung.png",
       "title": "Text 2: Historische Wurzeln der beruflichen Didaktik",
       "textCard": "In dem Dokument „Berufliche Didaktik, historische Wurzeln“ von Prof. Dr. Joachim Rottmann wird die historische Entwicklung der Didaktik und Curriculumentwicklung in der beruflichen Bildung detailliert dargestellt.",
-      "authorImg":  "./assets/images/BildEntwickler.png",
+      "authorImg": "./assets/images/BildEntwickler.png",
       "authorName": "Philipp Riegert",
       "date": "2021-12-10",
       "readTime": "PT2M",
@@ -42,7 +42,7 @@
       "bannerImg": "./assets/images/ZugängeWirtschaftsdidaktik.svg",
       "title": "Text 3: Theoretische Zugänge zur Wirtschaftsdidaktik",
       "textCard": "Dieter Euler stellt fest, dass zwar theoretische Fundierung für jedes Handeln notwendig ist, jedoch eine beträchtliche Kluft zwischen Theorie und Praxis besteht, und erläutert daher verschiedene didaktische Modelle, Partialtheorien und prinzipiengeleitete Handlungskonzepte, um Didaktikern eine professionelle Praxis zu ermöglichen",
-      "authorImg":  "./assets/images/BildEntwickler.png",
+      "authorImg": "./assets/images/BildEntwickler.png",
       "authorName": "Philipp Riegert",
       "date": "2021-12-10",
       "readTime": "PT2M",
@@ -60,7 +60,7 @@
       "bannerImg": "./assets/images/Kompetenzbegriff.svg",
       "title": "Text 4: Entwicklung des Kompetenzbegriffs",
       "textCard": "Der Text behandelt die Entwicklung, Bedeutung und Anwendung des Kompetenzbegriffs in der Berufsbildung, Personalentwicklung und Organisationslehre sowie dessen theoretische Grundlagen und praktische Implikationen.",
-      "authorImg":  "./assets/images/BildEntwickler.png",
+      "authorImg": "./assets/images/BildEntwickler.png",
       "authorName": "Philipp Riegert",
       "date": "2021-12-10",
       "readTime": "PT2M",
@@ -78,7 +78,7 @@
       "bannerImg": "./assets/images/internationalerKompetenzbegriff.svg",
       "title": "Text 5: Kompetenzentwicklung im internationalen Kontext",
       "textCard": "Ute Clement untersucht die internationale Entwicklung des Kompetenzbegriffs, der trotz nationaler Unterschiede in Definition und Anwendung weltweit zu einem zentralen Bildungskonzept geworden ist, und betont die Notwendigkeit politischer Unterstützung und Reformen zur Anpassung der Bildungssysteme an die sich wandelnden Anforderungen der Arbeitsmärkte.",
-      "authorImg":  "./assets/images/BildEntwickler.png",
+      "authorImg": "./assets/images/BildEntwickler.png",
       "authorName": "Philipp Riegert",
       "date": "2021-12-10",
       "readTime": "PT2M",
@@ -96,7 +96,7 @@
       "bannerImg": "./assets/images/AllgemeineUndBeruflicheBildungKutscha.svg",
       "title": "Text 6: Zum Verhältnis von allgemeiner und beruflicher Bildung im Kontext bildungstheoretischer Reformkonzepte",
       "textCard": "Der Text analysiert die historische Entwicklung und theoretischen Konzepte der Trennung und Integration von allgemeiner und beruflicher Bildung in Deutschland, betont die Gleichwertigkeit beider Bildungswege, und schließt mit der Forderung nach einer bildungstheoretisch fundierten Neugestaltung der Berufsbildung ab.",
-      "authorImg":  "./assets/images/BildEntwickler.png",
+      "authorImg": "./assets/images/BildEntwickler.png",
       "authorName": "Philipp Riegert",
       "date": "2021-12-10",
       "readTime": "PT2M",
@@ -111,18 +111,148 @@
     {
       "id": 7,
       "type": "fachdidaktik",
-      "bannerImg": "./assets/images/DidaktikCurriculumentwicklung.png",
-      "title": "Text 2: Historische Wurzeln der beruflichen Didaktik",
+      "bannerImg": "./assets/images/Python.svg",
+      "title": "Aufgabe 1: Erkennung und Reflektion von Anfängerfehlern",
       "textCard": "In dem Dokument „Berufliche Didaktik, historische Wurzeln“ von Prof. Dr. Joachim Rottmann wird die historische Entwicklung der Didaktik und Curriculumentwicklung in der beruflichen Bildung detailliert dargestellt.",
-      "authorImg":  "./assets/images/BildEntwickler.png",
+      "authorImg": "./assets/images/BildEntwickler.png",
       "authorName": "Philipp Riegert",
       "date": "2021-12-10",
       "readTime": "PT2M",
-      "content": "./assets/PDF/HistorischeWurzelnderberuflichenDidaktik.pdf",
+      "content": "./assets/PDF/Herr_Franke/Aufgabe1.pdf",
       "downloads": [
         {
-          "fileName": "Berufliche_Didaktik_historische_Wurzeln.pdf",
-          "filePath": "./assets/downloads/Berufliche_Didaktik_historische_Wurzeln.pdf"
+          "fileName": "Aufgabe 1: Erkennung und Reflektion von Anfängerfehlern",
+          "filePath": "./assets/PDF/Herr_Franke/Aufgabe1.pdf"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "fachdidaktik",
+      "bannerImg": "./assets/images/Lernumgebungen.svg",
+      "title": "Aufgabe 2: Evaluation von Lernumgebungen für das Programmieren",
+      "textCard": "In dem Dokument „Berufliche Didaktik, historische Wurzeln“ von Prof. Dr. Joachim Rottmann wird die historische Entwicklung der Didaktik und Curriculumentwicklung in der beruflichen Bildung detailliert dargestellt.",
+      "authorImg": "./assets/images/BildEntwickler.png",
+      "authorName": "Philipp Riegert",
+      "date": "2021-12-10",
+      "readTime": "PT2M",
+      "content": "./assets/PDF/Herr_Franke/Aufgabe2.pdf",
+      "downloads": [
+        {
+          "fileName": "Aufgabe 2: Evaluation von Lernumgebungen für das Programmieren",
+          "filePath": "./assets/PDF/Herr_Franke/Aufgabe2.pdf"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "type": "fachdidaktik",
+      "bannerImg": "./assets/images/ObjectsFirst_vs_ObjectLater.svg",
+      "title": "Aufgabe 3: Objects First vs. Objects Later",
+      "textCard": "In dem Dokument „Berufliche Didaktik, historische Wurzeln“ von Prof. Dr. Joachim Rottmann wird die historische Entwicklung der Didaktik und Curriculumentwicklung in der beruflichen Bildung detailliert dargestellt.",
+      "authorImg": "./assets/images/BildEntwickler.png",
+      "authorName": "Philipp Riegert",
+      "date": "2021-12-10",
+      "readTime": "PT2M",
+      "content": "./assets/PDF/Herr_Franke/Aufgabe3.pdf",
+      "downloads": [
+        {
+          "fileName": "Aufgabe 3: Objects First vs. Objects Later",
+          "filePath": "./assets/PDF/Herr_Franke/Aufgabe3.pdf"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "type": "fachdidaktik",
+      "bannerImg": "./assets/images/Lernumgebungen.svg",
+      "title": "Aufgabe 4: Didaktische Ansätze",
+      "textCard": "In dem Dokument „Berufliche Didaktik, historische Wurzeln“ von Prof. Dr. Joachim Rottmann wird die historische Entwicklung der Didaktik und Curriculumentwicklung in der beruflichen Bildung detailliert dargestellt.",
+      "authorImg": "./assets/images/BildEntwickler.png",
+      "authorName": "Philipp Riegert",
+      "date": "2021-12-10",
+      "readTime": "PT2M",
+      "content": "./assets/PDF/Herr_Franke/Aufgabe2.pdf",
+      "downloads": [
+        {
+          "fileName": "Aufgabe 2: Evaluation von Lernumgebungen für das Programmieren",
+          "filePath": "./assets/PDF/Herr_Franke/Aufgabe2.pdf"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "type": "fachdidaktik",
+      "bannerImg": "./assets/images/Gamification.svg",
+      "title": "Aufgabe 5: Gamification",
+      "textCard": "In dem Dokument „Berufliche Didaktik, historische Wurzeln“ von Prof. Dr. Joachim Rottmann wird die historische Entwicklung der Didaktik und Curriculumentwicklung in der beruflichen Bildung detailliert dargestellt.",
+      "authorImg": "./assets/images/BildEntwickler.png",
+      "authorName": "Philipp Riegert",
+      "date": "2021-12-10",
+      "readTime": "PT2M",
+      "content": "./assets/PDF/Herr_Franke/Aufgabe2.pdf",
+      "downloads": [
+        {
+          "fileName": "Aufgabe 2: Evaluation von Lernumgebungen für das Programmieren",
+          "filePath": "./assets/PDF/Herr_Franke/Aufgabe2.pdf"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "type": "fachdidaktik",
+      "bannerImg": "./assets/images/Boolische_ALgebra.svg",
+      "title": "Aufgabe 6: Programmier-Vorbereitung: Boolesche Algebra",
+      "textCard": "In dem Dokument „Berufliche Didaktik, historische Wurzeln“ von Prof. Dr. Joachim Rottmann wird die historische Entwicklung der Didaktik und Curriculumentwicklung in der beruflichen Bildung detailliert dargestellt.",
+      "authorImg": "./assets/images/BildEntwickler.png",
+      "authorName": "Philipp Riegert",
+      "date": "2021-12-10",
+      "readTime": "PT2M",
+      "content": "./assets/PDF/Herr_Franke/Aufgabe2.pdf",
+      "downloads": [
+        {
+          "fileName": "Aufgabe 2: Evaluation von Lernumgebungen für das Programmieren",
+          "filePath": "./assets/PDF/Herr_Franke/Aufgabe2.pdf"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "type": "fachdidaktik",
+      "bannerImg": "./assets/images/Lernumgebungen.svg",
+      "title": "Aufgabe 7: Buch sek1  ",
+      "textCard": "In dem Dokument „Berufliche Didaktik, historische Wurzeln“ von Prof. Dr. Joachim Rottmann wird die historische Entwicklung der Didaktik und Curriculumentwicklung in der beruflichen Bildung detailliert dargestellt.",
+      "authorImg": "./assets/images/BildEntwickler.png",
+      "authorName": "Philipp Riegert",
+      "date": "2021-12-10",
+      "readTime": "PT2M",
+      "content": "./assets/PDF/Herr_Franke/Aufgabe2.pdf",
+      "downloads": [
+        {
+          "fileName": "Aufgabe 2: Evaluation von Lernumgebungen für das Programmieren",
+          "filePath": "./assets/PDF/Herr_Franke/Aufgabe2.pdf"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "type": "fachdidaktik",
+      "bannerImg": "./assets/images/Scratch.svg",
+      "title": "Aufgabe 8: Entwicklung einer Programmierprojektseinheit für Schüler mit Scratch",
+      "textCard": "In dem Dokument „Berufliche Didaktik, historische Wurzeln“ von Prof. Dr. Joachim Rottmann wird die historische Entwicklung der Didaktik und Curriculumentwicklung in der beruflichen Bildung detailliert dargestellt.",
+      "authorImg": "./assets/images/BildEntwickler.png",
+      "authorName": "Philipp Riegert",
+      "date": "2021-12-10",
+      "readTime": "PT2M",
+      "content": "./assets/PDF/Herr_Franke/Aufgabe8.pdf",
+      "downloads": [
+        {
+          "fileName": "Aufgabe 8: Entwicklung und Bewertung einer Programmierprojektseinheit für Schüler mit Scratch",
+          "filePath": "./assets/PDF/Herr_Franke/Aufgabe8.pdf"
+        },
+        {
+          "fileName": "Fische schießen Scratch-Programm",
+          "filePath": "./assets/downloads/Fisch_schießen.sb3"
         }
       ]
     }
