@@ -1,0 +1,48 @@
+<svg width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+    <!-- Hintergrund -->
+    <rect width="100%" height="100%" fill="#e0f7fa" />
+
+    <!-- Titel -->
+    <text x="400" y="50" font-family="Arial" font-size="30" fill="#333" text-anchor="middle">
+        Didaktische Ansätze zum Programmieren lernen
+    </text>
+
+    <!-- Lernen mit Lösungsbeispielen -->
+    <rect x="50" y="100" width="200" height="80" fill="#4CAF50" rx="10" />
+    <text x="150" y="140" font-family="Arial" font-size="18" fill="white" text-anchor="middle">
+        Lösungsbeispiele
+    </text>
+
+    <!-- Der Leseansatz -->
+    <rect x="300" y="100" width="200" height="80" fill="#FF9800" rx="10" />
+    <text x="400" y="140" font-family="Arial" font-size="18" fill="white" text-anchor="middle">
+        Leseansatz
+    </text>
+
+    <!-- Expertenansatz -->
+    <rect x="550" y="100" width="200" height="80" fill="#F44336" rx="10" />
+    <text x="650" y="140" font-family="Arial" font-size="18" fill="white" text-anchor="middle">
+        Expertenansatz
+    </text>
+
+    <!-- Spiralansatz -->
+    <rect x="50" y="220" width="200" height="80" fill="#9C27B0" rx="10" />
+    <text x="150" y="260" font-family="Arial" font-size="18" fill="white" text-anchor="middle">
+        Spiralansatz
+    </text>
+
+    <!-- Programmieren als Prozess -->
+    <rect x="300" y="220" width="200" height="80" fill="#3F51B5" rx="10" />
+    <text x="400" y="250" font-family="Arial" font-size="18" fill="white" text-anchor="middle">
+        Programmieren als
+    </text>
+    <text x="400" y="275" font-family="Arial" font-size="18" fill="white" text-anchor="middle">
+        Prozess
+    </text>
+
+    <!-- Live-Coding -->
+    <rect x="550" y="220" width="200" height="80" fill="#FFC107" rx="10" />
+    <text x="650" y="260" font-family="Arial" font-size="18" fill="white" text-anchor="middle">
+        Live-Coding
+    </text>
+</svg>

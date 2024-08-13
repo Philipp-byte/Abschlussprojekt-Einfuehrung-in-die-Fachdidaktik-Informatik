@@ -165,18 +165,18 @@
     {
       "id": 10,
       "type": "fachdidaktik",
-      "bannerImg": "./assets/images/Lernumgebungen.svg",
-      "title": "Aufgabe 4: Didaktische Ansätze",
+      "bannerImg": "./assets/images/DidaktischeAnsaetzeInformatik.svg",
+      "title": "Aufgabe 4: Didaktische Ansätze zum Programmieren lernen",
       "textCard": "In dem Dokument „Berufliche Didaktik, historische Wurzeln“ von Prof. Dr. Joachim Rottmann wird die historische Entwicklung der Didaktik und Curriculumentwicklung in der beruflichen Bildung detailliert dargestellt.",
       "authorImg": "./assets/images/BildEntwickler.png",
       "authorName": "Philipp Riegert",
       "date": "2021-12-10",
       "readTime": "PT2M",
-      "content": "./assets/PDF/Herr_Franke/Aufgabe2.pdf",
+      "content": "./assets/PDF/Herr_Franke/Aufgabe4.pdf",
       "downloads": [
         {
-          "fileName": "Aufgabe 2: Evaluation von Lernumgebungen für das Programmieren",
-          "filePath": "./assets/PDF/Herr_Franke/Aufgabe2.pdf"
+          "fileName": "Aufgabe 4: Didaktische Ansätze zum Programmieren lernen",
+          "filePath": "./assets/PDF/Herr_Franke/Aufgabe4.pdf"
         }
       ]
     },
