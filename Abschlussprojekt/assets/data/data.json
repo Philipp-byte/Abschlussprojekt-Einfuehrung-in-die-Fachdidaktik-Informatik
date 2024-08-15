@@ -201,18 +201,18 @@
     {
       "id": 12,
       "type": "fachdidaktik",
-      "bannerImg": "./assets/images/Boolische_ALgebra.svg",
+      "bannerImg": "./assets/images/Boolische_Algebra.svg",
       "title": "Aufgabe 6: Programmier-Vorbereitung: Boolesche Algebra",
-      "textCard": "",
+      "textCard": "Der Text zeigt und erklärt, wie man logische Schaltungen mit Boolescher Algebra erstellt und analysiert sowie das Einstein-Rätsel löst, indem Hinweise schrittweise angewendet werden, um die richtige Zuordnung zu finden.",
       "authorImg": "./assets/images/BildEntwickler.png",
       "authorName": "Philipp Riegert",
       "date": "2021-12-10",
       "readTime": "PT2M",
-      "content": "./assets/PDF/Herr_Franke/Aufgabe2.pdf",
+      "content": "./assets/PDF/Herr_Franke/Aufgabe6.pdf",
       "downloads": [
         {
-          "fileName": "Aufgabe 2: Evaluation von Lernumgebungen für das Programmieren",
-          "filePath": "./assets/PDF/Herr_Franke/Aufgabe2.pdf"
+          "fileName": "Aufgabe 6: Programmier-Vorbereitung: Boolesche Algebra",
+          "filePath": "./assets/PDF/Herr_Franke/Aufgabe6.pdf"
         }
       ]
     },
