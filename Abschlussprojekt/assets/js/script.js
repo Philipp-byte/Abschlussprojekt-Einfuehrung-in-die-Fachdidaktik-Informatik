@@ -108,6 +108,13 @@ if (document.getElementById('content')) {
             const item = data.veranstaltungen.find(item => item.id == id);
 
             if (item) {
+                const pageTitle = document.getElementById('page-title');
+                if (item.type === "fachdidaktik") {
+                    pageTitle.innerHTML = "<b>Fachdidaktik der Informatik</b>";
+                } else if (item.type === "didaktischeKonzeption") {
+                    pageTitle.innerHTML = "<b>Didaktische&nbsp;Konzeption</b>";
+                }
+
                 contentContainer.innerHTML = `
                     <h2>${item.title}</h2>
                     <iframe src="${item.content}" width="100%" height="100%"></iframe>
