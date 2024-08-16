@@ -1,0 +1,15 @@
+<svg width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+    <!-- Hintergrund -->
+    <rect width="800" height="400" fill="#e0e4f1"/>
+
+    <!-- Text für das Buch -->
+    <text x="400" y="150" font-size="22" text-anchor="middle" fill="black">Blickpunkt Informatik</text>
+    <text x="400" y="180" font-size="18" text-anchor="middle" fill="black">Sekundarstufe 1</text>
+
+    <!-- Text für die Konzepte -->
+    <text x="400" y="220" font-size="18" text-anchor="middle" fill="blue">Visuelle Programmiersprachen</text>
+    <text x="400" y="250" font-size="18" text-anchor="middle" fill="green">Textbasierte Programmiersprachen</text>
+
+    <!-- Rahmen für den didaktischen Ansatz -->
+    <text x="400" y="300" font-size="20" text-anchor="middle" fill="black">Didaktischer Ansatz</text>
+</svg>
