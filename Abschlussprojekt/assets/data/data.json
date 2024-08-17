@@ -255,6 +255,24 @@
           "filePath": "./assets/downloads/Fisch_schießen.sb3"
         }
       ]
+    },
+    {
+      "id": 15,
+      "type": "gemeinsameAspekte",
+      "bannerImg": "nicht notwendig",
+      "title": "Text 7: Gemeinsame Aspekte der Teilmodule",
+      "textCard": "Hier nicht notwendig, da keine Card Anzeige",
+      "authorImg": "./assets/images/BildEntwickler.png",
+      "authorName": "Philipp Riegert",
+      "date": "2024-01-01",
+      "readTime": "PT3M",
+      "content": "./assets/PDF/VerbindungenZwischenDenTeilmodulen.pdf",
+      "downloads": [
+        {
+          "fileName": "Verbindungen zwischen den Teilmodulen.pdf",
+          "filePath": "./assets/PDF/VerbindungenZwischenDenTeilmodulen.pdf"
+        }
+      ]
     }
   ]
 }

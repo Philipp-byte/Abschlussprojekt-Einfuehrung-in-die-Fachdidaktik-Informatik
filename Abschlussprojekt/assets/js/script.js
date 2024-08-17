@@ -109,10 +109,14 @@ if (document.getElementById('content')) {
 
             if (item) {
                 const pageTitle = document.getElementById('page-title');
+
+                // Prüfen auf die drei Typen
                 if (item.type === "fachdidaktik") {
                     pageTitle.innerHTML = "<b>Fachdidaktik der Informatik</b>";
                 } else if (item.type === "didaktischeKonzeption") {
                     pageTitle.innerHTML = "<b>Didaktische&nbsp;Konzeption</b>";
+                } else if (item.type === "gemeinsameAspekte") {
+                    pageTitle.innerHTML = "<b>Gemeinsame&nbsp;Aspekte</b>";
                 }
 
                 contentContainer.innerHTML = `
